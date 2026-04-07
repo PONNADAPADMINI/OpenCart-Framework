@@ -17,7 +17,6 @@ it is a high-performance, hybrid automation framework engineered to validate com
 4) **Account Management** and login Validation workflows by Data driven testing.
 
 # Framework Tools Used: 
-- Python 3.x
 - Selenium: Web Driver
 - Pytest
 - Openpyxl: Excel data manipulation for DDT.
@@ -93,4 +92,4 @@ Project_Root/
 ## Author
 
 **Khaja Mohiddin**  
-Senior Test Engineer.
+ - Senior Test Engineer.
