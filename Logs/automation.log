@@ -976,3 +976,6 @@
 04/07/2026 02:42:46 PM: INFO: ----->>> End of test_002_Login Test <<<------
 04/07/2026 02:42:47 PM: INFO: -------->>>>  Starting test_Login_DDT_Test <<<<<<< ---------
 04/07/2026 02:43:44 PM: INFO: ---------------End of test driven Testing-----------------------
+04/07/2026 09:34:39 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 09:34:39 PM: INFO: **** Launching Test Application ***
+04/07/2026 09:34:44 PM: INFO: **** Navigated to Registration Page & Filling the details *** 

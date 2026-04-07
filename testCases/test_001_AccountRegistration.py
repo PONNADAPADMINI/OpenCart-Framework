@@ -31,14 +31,13 @@ class Test_Account_Reg():
         self.regPage=Account_Register(self.driver)
         self.regPage.set_firstName("khaja")
         self.regPage.set_lastname("QsSk")
-    #Random Email Generatore ro Avoid Duplication
+        #Random Email Generatore ro Avoid Duplication
         self.email=random_string_generator()+"@yopmail.com"
         self.regPage.set_email(self.email)
-        # self.regPage.set_email("khajask603@gmail.com")
 
         self.regPage.set_telephone("8153264120")
         self.regPage.set_password("White@456")
-        self.regPage.set_confirm_password("White@456")
+        self.regPage.set_confirm_password("White@45")
         password=self.regPage.get_password()
         cnf_pwd=self.regPage.get_confirm_password()
         assert password==cnf_pwd, f"Assertion failed with Type '{password}',confirmed'{cnf_pwd}'"
