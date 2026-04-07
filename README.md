@@ -72,10 +72,10 @@ Project_Root/
 3. python -m venv .venv
         - .venv\Scripts\activate
 4. Install dependencies
-        - pip install -r requirements.txt
+   - pip install -r requirements.txt
                 (or)
-        - Double Click the " install_packages.bat " File
-5. Run tests
+   - Double Click the " install_packages.bat " File
+6. Run tests
         - pytest -v -s
 
 ## Reports & Evidence
