@@ -1,6 +1,13 @@
-# OpenCart-Framework_A1
-A professional Hybrid Automation Framework for E-commerce testing using Python, Selenium, and Pytest. Features Page Object Model (POM), Data-Driven Testing (DDT) via Excel, and automated timestamped reporting.
+# OpenCart-QA Selenium Python Automation Framework_V1
+- This project is a professional-grade UI automation framework built to validate e-commerce workflows on the OpenCart platform using:Python (Programming Language)
 
+Selenium WebDriver (Browser Automation)
+
+Pytest (Test Runner & Assertions)
+
+Page Object Model (POM) (Design Pattern)
+
+Data-Driven Testing (DDT) (Excel Integration)
 # PROJECT OVERVIEW:
 it is a high-performance, hybrid automation framework engineered to validate complex e-commerce workflows on the OpenCart platform. The project is designed with a focus on scalability and maintainability, ensuring that UI changes require minimal code updates. By integrating Data-Driven logic, this framework allows for exhaustive testing of authentication and registration flows using externalized Excel data.
 
