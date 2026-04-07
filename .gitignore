@@ -1,0 +1,21 @@
+# Virtual Environment (the heavy folder with all plugins)
+.venv/
+venv/
+env/
+
+# Python cache (temp files created when you run code)
+**/__pycache__/
+*.pyc
+
+# Pytest temp files
+.pytest_cache/
+
+# IDE Settings (Your personal PyCharm layout)
+.idea/
+
+# Test Reports (keeps your GitHub clean from old runs)
+reports/
+
+# Logs (keeps your history private)
+Logs/*.log
+*.log
