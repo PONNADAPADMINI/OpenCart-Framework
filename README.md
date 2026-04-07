@@ -11,10 +11,10 @@ This project is a professional-grade UI automation framework built to validate e
 it is a high-performance, hybrid automation framework engineered to validate complex e-commerce workflows on the OpenCart platform. The project is designed with a focus on scalability and maintainability, ensuring that UI changes require minimal code updates. By integrating Data-Driven logic, this framework allows for exhaustive testing of authentication and registration flows using externalized Excel data.
 
 # It focuses on:
-1) ** User Registration** : Functional sign-up flow validation with dynamic data.
-2) ** Authentication** : Standard valid/invalid login verification.
-3) ** Data-Driven Login** : Exhaustive testing of multiple user scenarios using externalized Excel data.
-4) ** Account Management** and login Validation workflows by Data driven testing.
+1) **User Registration** : Functional sign-up flow validation with dynamic data.
+2) **Authentication** : Standard valid/invalid login verification.
+3) **Data-Driven Login** : Exhaustive testing of multiple user scenarios using externalized Excel data.
+4) **Account Management** and login Validation workflows by Data driven testing.
 
 # Framework Tools Used: 
 - Python 3.x
