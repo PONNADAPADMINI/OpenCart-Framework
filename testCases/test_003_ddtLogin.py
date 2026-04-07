@@ -29,7 +29,6 @@ class Test_loginDDT():
         self.Lp=Login_Page(self.driver)
         self.Ap=AccountPage(self.driver)
 
-
         for r in range(2,self.rows+1):
             # 1. Reset state
             self.driver.get(self.base_url)
@@ -45,7 +44,6 @@ class Test_loginDDT():
             self.Lp.set_login_email(self.email)
             self.Lp.set_login_password(self.password)
             self.Lp.click_login_button()
-
 
             # 5. Validation
             self.postLogin_Page =self.Lp.verify_Login()

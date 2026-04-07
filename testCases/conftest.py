@@ -48,7 +48,6 @@ def setup(request):
     driver.maximize_window()
     driver.implicitly_wait(10)
 
-
     #   --TEAR DOWN with Yield
     yield driver
     print("----->>> ",browser.upper(), "Browser execution completed.")
@@ -70,6 +69,7 @@ def pytest_configure(config):
 
     html_dir.mkdir(parents=True, exist_ok=True)
     screenshot_dir.mkdir(parents=True, exist_ok=True)
+
     (html_dir / ".gitkeep").touch()
     (screenshot_dir / ".gitkeep").touch()
 

@@ -985,3 +985,66 @@
 04/07/2026 09:50:25 PM: INFO: **** test_001_AccountRegistration started *** 
 04/07/2026 09:50:25 PM: INFO: **** Launching Test Application ***
 04/07/2026 09:50:28 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 09:53:45 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 09:53:45 PM: INFO: **** Launching Test Application ***
+04/07/2026 09:53:48 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 09:53:49 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 09:53:49 PM: INFO: Account Registration Completed successfully
+04/07/2026 09:55:23 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 09:55:23 PM: INFO: **** Launching Test Application ***
+04/07/2026 09:55:27 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 09:55:27 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 09:55:28 PM: INFO: Account Registration Completed successfully
+04/07/2026 09:56:40 PM: INFO: ----->>> test_002_Login Started Executing <<<------
+04/07/2026 09:56:41 PM: INFO: ----->>> Navigating to Login Page <<<------
+04/07/2026 09:56:44 PM: INFO: ----->>> Entering the Login Credentials <<<------
+04/07/2026 09:56:45 PM: INFO: ----->>> End of test_002_Login Test <<<------
+04/07/2026 09:58:31 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 09:58:31 PM: INFO: **** Launching Test Application ***
+04/07/2026 09:58:33 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 09:58:34 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 09:58:34 PM: INFO: Account Registration Have Failed to Reach Confirmation Page
+04/07/2026 10:01:17 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:01:17 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:01:20 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:01:20 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:01:21 PM: INFO: Account Registration Have Failed at Confirmation Page
+04/07/2026 10:11:27 PM: INFO: ----->>> test_002_Login Started Executing <<<------
+04/07/2026 10:11:29 PM: INFO: ----->>> Navigating to Login Page <<<------
+04/07/2026 10:11:29 PM: INFO: ----->>> Entering the Login Credentials <<<------
+04/07/2026 10:11:30 PM: INFO: ----->>> End of test_002_Login Test <<<------
+04/07/2026 10:20:34 PM: INFO: ----->>> test_002_Login Started Executing <<<------
+04/07/2026 10:20:36 PM: INFO: ----->>> Navigating to Login Page <<<------
+04/07/2026 10:20:36 PM: INFO: ----->>> Entering the Login Credentials <<<------
+04/07/2026 10:20:38 PM: INFO: ----->>> End of test_002_Login Test <<<------
+04/07/2026 10:20:47 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:20:47 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:20:51 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:20:52 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:20:52 PM: INFO: **** Validateing the account Page navigation *** 
+04/07/2026 10:20:52 PM: ERROR: Navigation failed - still on Registration page https://naveenautomationlabs.com/opencart/index.php?route=account/register
+04/07/2026 10:23:23 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:23:23 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:23:26 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:23:26 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:23:27 PM: INFO: **** Validateing the account Page navigation *** 
+04/07/2026 10:23:27 PM: ERROR: Navigation failed - still on Registration page https://naveenautomationlabs.com/opencart/index.php?route=account/register
+04/07/2026 10:24:27 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:24:27 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:24:29 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:24:30 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:24:30 PM: INFO: **** Validateing the account Page navigation *** 
+04/07/2026 10:24:30 PM: ERROR: Navigation failed - still on Registration page https://naveenautomationlabs.com/opencart/index.php?route=account/register
+04/07/2026 10:26:15 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:26:15 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:26:18 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:26:18 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:26:18 PM: INFO: **** Validateing the account Page navigation *** 
+04/07/2026 10:26:18 PM: ERROR: Navigation failed - still on Registration page https://naveenautomationlabs.com/opencart/index.php?route=account/register
+04/07/2026 10:26:36 PM: INFO: **** test_001_AccountRegistration started *** 
+04/07/2026 10:26:36 PM: INFO: **** Launching Test Application ***
+04/07/2026 10:26:39 PM: INFO: **** Navigated to Registration Page & Filling the details *** 
+04/07/2026 10:26:40 PM: INFO: **** Password-Matched Successfully *** 
+04/07/2026 10:26:40 PM: INFO: **** Validateing the account Page navigation *** 
+04/07/2026 10:26:40 PM: INFO: Navigated Succesfully to : https://naveenautomationlabs.com/opencart/index.php?route=account/success
+04/07/2026 10:26:40 PM: INFO: Account Registration Completed is successfull

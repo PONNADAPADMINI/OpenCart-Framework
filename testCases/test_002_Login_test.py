@@ -16,14 +16,11 @@ class Test_login():
     @pytest.mark.sanity
     def test_login(self,setup):
 
-
         self.logger.info("----->>> test_002_Login Started Executing <<<------")
         self.driver = setup
         self.driver.get(self.base_url)
         self.hp=Home_page(self.driver)
         self.Ap=AccountPage(self.driver)
-
-
 
         self.logger.info("----->>> Navigating to Login Page <<<------")
         self.hp.click_myAccountTxt()
@@ -39,10 +36,8 @@ class Test_login():
             assert True
         else:
             assert False
-
         self.Ap.click_myAccountTxt()
-        logout_text = self.Ap.click_logout_Button()
-        print(logout_text," : is the option we have click at the Account Dropdown")
+        self.Ap.click_logout_Button()
         self.logger.info("----->>> End of test_002_Login Test <<<------")
 
 
