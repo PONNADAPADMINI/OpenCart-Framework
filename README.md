@@ -6,34 +6,41 @@ it is a high-performance, hybrid automation framework engineered to validate com
 
 # Framework structure
 ----------------------
-
+```
 Project_Root/
 ├── configurations/                # Global Environment Settings
-│   └── config.ini                 # Stores Base URL, Credentials, and Environment Variables
-├── pageObjects/                   # Page Object Model (POM) Implementation
-│   ├── base_page.py               # Reusable wrapper methods for Selenium actions
+│   └── config.ini                 # Stores Base URL and Credentials
+├── pageObjects/                   # POM Design Pattern Implementation
+│   ├── base_page.py               # Reusable Selenium wrappers
 │   ├── Home_Page.py               # Homepage navigation logic
-│   ├── login_Page.py              # Authentication & verification logic
-│   ├── Account_Page.py            # Dashboard & navigation components
-│   └── AccountRegistrationPage.py # Sign-up flow management
+│   ├── login_Page.py              # Authentication logic
+│   ├── Account_Page.py            # Dashboard components
+│   └── AccountRegistrationPage.py  # Sign-up flow management
 ├── testCases/                     # Pytest Test Suite
-│   ├── conftest.py                # Fixtures for browser lifecycle and reporting hooks
-│   ├── pytest.ini                 # Custom Pytest configurations and markers
+│   ├── conftest.py                # Browser setup and teardown fixtures
 │   ├── test_001_Reg.py            # Functional sign-up test
 │   ├── test_002_Login.py          # Basic authentication test
-│   └── test_003_ddtLogin.py       # Advanced Excel-driven testing
+│   └── test_003_ddtLogin.py       # Data-driven Excel tests
 ├── testData/                      # External Data Management
 │   └── Opencart_LoginData.xlsx    # Test data for DDT
-├── utilities/                     # Reusable Helper Modules
+├── utiLites/                      # Reusable Helper Modules
 │   ├── readProperties.py          # Configuration parser
-│   ├── custom_Logger.py           # Execution tracking engine
+│   ├── custom_Logger.py           # Execution tracking
 │   ├── XLUtils.py                 # Excel Helper Utilities
 │   └── randomString.py            # Dynamic data generator
-├── Logs/                          # Runtime Traceability (automation.log)
+├── Logs/                          # Runtime Traceability
 ├── reports/                       # Historical Execution Evidence
-│   └── YYYY-MM-DD_HH-MM-SS/       # Isolated folder for each unique run
-│       ├── HtmlReports/           # Visual test summary
-│       └── screenshots/           # Evidence captured during failures
+│   └── YYYY-MM-DD_HH-MM-SS/       # Unique folder for each run
 ├── requirements.txt               # Project dependency manifest
 ├── run.bat                        # One-click Suite Execution
 └── install_packages.bat           # One-click Environment Setup
+```
+# Environment Setup
+-> To quickly set up the automation environment, run install_packages.bat. It will automatically install the following essential plugins: 
+
+Pytest: Framework for test execution and assertions. 
+Selenium: WebDriver for browser automation. 
+Webdriver-manager: Automatic management of binary drivers for different browsers. 
+Pytest-html : Tools for generating professional test reports. 
+Openpyxl: Engine used to read and write Excel data for Data-Driven Testing. 
+Pytest-xdist: Plugin for running tests in parallel to save execution time.
