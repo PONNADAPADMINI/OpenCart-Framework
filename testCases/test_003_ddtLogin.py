@@ -70,7 +70,7 @@ class Test_loginDDT():
             assert True
         else:
             assert False
-        self.logger.info(("---------------End of test driven Testing-----------------------"))
+        self.logger.info(("---------------End of Data driven Testing-----------------------"))
 
 
 
