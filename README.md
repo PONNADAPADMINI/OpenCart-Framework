@@ -96,5 +96,5 @@ OpenCart_Automation_Framework/
 
 ## Author
 
-**Khaja Mohiddin**  
+**Padmini Ponnada**  
  - Senior Test Engineer.
