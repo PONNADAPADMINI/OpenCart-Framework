@@ -30,33 +30,36 @@ it is a hybrid automation framework engineered to validate complex e-commerce wo
 # Project structure
 ----------------------
 ```
-Project_Root/
+OpenCart_Automation_Framework/
 ├── configurations/                # Global Environment Settings
-│   └── config.ini                 # Stores Base URL and Credentials
-├── pageObjects/                   # POM Design Pattern Implementation
-│   ├── base_page.py               # Reusable Selenium wrappers
-│   ├── Home_Page.py               # Homepage navigation logic
-│   ├── login_Page.py              # Authentication logic
-│   ├── Account_Page.py            # Dashboard components
-│   └── AccountRegistrationPage.py  # Sign-up flow management
-├── testCases/                     # Pytest Test Suite
-│   ├── conftest.py                # Browser setup and teardown fixtures
-│   ├── test_001_Reg.py            # Functional sign-up test
-│   ├── test_002_Login.py          # Basic authentication test
-│   └── test_003_ddtLogin.py       # Data-driven Excel tests
-├── testData/                      # External Data Management
-│   └── Opencart_LoginData.xlsx    # Test data for DDT
-├── utiLites/                      # Reusable Helper Modules
-│   ├── readProperties.py          # Configuration parser
-│   ├── custom_Logger.py           # Execution tracking
-│   ├── XLUtils.py                 # Excel Helper Utilities
-│   └── randomString.py            # Dynamic data generator
-├── Logs/                          # Runtime Traceability
+│   └── config.ini                 # Base URL, Credentials, and Environment variables
+├── logs/                          # Runtime Traceability (.log files)
+├── page_objects/                  # Page Object Model Implementation
+│   ├── base_page.py               # Reusable Selenium wrappers (Switches, Waits, JS)
+│   ├── home_page.py               # Homepage navigation & locators
+│   ├── login_page.py              # Authentication components
+│   ├── account_page.py            # User dashboard interactions
+│   └── registration_page.py       # Sign-up flow management
 ├── reports/                       # Historical Execution Evidence
-│   └── YYYY-MM-DD_HH-MM-SS/       # Unique folder for each run
+│   └── 2026-04-11_20-45-10/       # Unique Run ID (Auto-generated)
+│       ├── html_reports/          # Clean, isolated interactive reports
+│       │   └── report.html
+│       └── screenshots/           # Failure evidence for debugging
+├── test_cases/                    # Pytest Test Suite
+│   ├── conftest.py                # Browser fixtures and Report hooks
+│   ├── test_001_registration.py   # Functional sign-up test
+│   ├── test_002_login.py          # Basic authentication test
+│   └── test_003_ddt_login.py      # Data-driven Excel tests
+├── test_data/                     # External Data Management
+│   └── login_data.xlsx            # Source for DDT (Data-Driven Testing)
+├── utilities/                     # Reusable Helper Modules
+│   ├── read_properties.py         # Config.ini parser
+│   ├── custom_logger.py           # Logging configuration
+│   ├── excel_utils.py             # Openpyxl wrappers for Excel
+│   └── data_generator.py          # Random strings for dynamic testing
 ├── requirements.txt               # Project dependency manifest
-├── run.bat                        # One-click Suite Execution
-└── install_packages.bat           # One-click Environment Setup
+├── run.bat                        # One-click execution (Standard/Smoke)
+└── install_packages.bat           # Environment setup script
 ```
 
 ## Setup & Execution
