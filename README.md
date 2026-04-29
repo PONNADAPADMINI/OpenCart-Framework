@@ -70,7 +70,7 @@ OpenCart_Automation_Framework/
 
 # Instructions :
 1. Clone the repository
-   - git clone git@github.com:khajask603/OpenCart-Framework_A1.git
+   - git clone git@github.com:PONNADAPADMINI/OpenCart-Framework_A1.git
 3. Create virtual environment
    - python -m venv .venv
 4. python -m venv .venv
